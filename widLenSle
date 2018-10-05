@@ -1,0 +1,21 @@
+var shirtWidth = 23;
+var shirtLength = 30;
+var shirtSleeve = 8.71;
+
+// Write your if/else code here
+
+//gMeta
+
+if ((shirtWidth <= 19) && (shirtLength <= 28) && (shirtSleeve <= 8.37)){
+    console.log("S"); 
+}else if ((20 <= shirtWidth <= 21) && (shirtLength == 29) && (8.38 <= shirtSleeve <= 8.62)){
+    console.log("M");
+}else if ((22 <= shirtWidth <= 23) && (shirtLength == 30) && (8.63 <= shirtSleeve <= 8.87)){
+    console.log("L");
+}else if ((24 <= shirtWidth <= 25) && (shirtLength == 31) && (8.88 <= shirtSleeve <= 9.62)){
+    console.log("XL");
+}else if ((26 <= shirtWidth <= 26) && (shirtLength == 33) && (9.63 <= shirtSleeve <= 10.12)){
+    console.log("2XL");
+}else if ((shirtWidth >= 27) && (shirtLength >= 34) && (shirtSleeve >= 10.13)){
+    console.log("3XL");
+}
