@@ -6,16 +6,16 @@ var shirtSleeve = 8.71;
 
 //gMeta
 
-if ((shirtWidth <= 19) && (shirtLength <= 28) && (shirtSleeve <= 8.37)){
+if ((shirtWidth <= 19.99) && (shirtLength <= 28.99) && (shirtSleeve <= 8.379)){
     console.log("S"); 
-}else if ((20 <= shirtWidth <= 21) && (shirtLength == 29) && (8.38 <= shirtSleeve <= 8.62)){
+}else if ((20 <= shirtWidth <= 21.99) && (29 <= shirtLength <= 29.99) && (8.38 <= shirtSleeve <= 8.62)){
     console.log("M");
-}else if ((22 <= shirtWidth <= 23) && (shirtLength == 30) && (8.63 <= shirtSleeve <= 8.87)){
+}else if ((22 <= shirtWidth <= 23.99) && (30 <= shirtLength <= 30.99) && (8.63 <= shirtSleeve <= 8.87)){
     console.log("L");
-}else if ((24 <= shirtWidth <= 25) && (shirtLength == 31) && (8.88 <= shirtSleeve <= 9.62)){
+}else if ((24 <= shirtWidth <= 25.99) && (31 <= shirtLength <= 31.99) && (8.88 <= shirtSleeve <= 9.62)){
     console.log("XL");
-}else if ((26 <= shirtWidth <= 26) && (shirtLength == 33) && (9.63 <= shirtSleeve <= 10.12)){
+}else if ((26 <= shirtWidth <= 26.99) && (32 <= shirtLength <= 33) && (9.63 <= shirtSleeve <= 10.12)){
     console.log("2XL");
 }else if ((shirtWidth >= 27) && (shirtLength >= 34) && (shirtSleeve >= 10.13)){
     console.log("3XL");
-}
+} 
